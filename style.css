@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://images.pexels.com/photos/220182/pexels-photo-220182.jpeg?auto=compress&cs=tinysrgb&w=400");
+    background-image: url("pexels-photo-220182.jpeg");
     /* background-color: #525050; */
     color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -53,6 +53,7 @@ h2 {
 button {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.2rem;
+    text-shadow: 2px 2px 3px black;
     margin-top: -15px;
     width: 250px;
     border: none;
@@ -64,7 +65,7 @@ button {
 }
 
 #increment-btn {
-    background-color: darkblue;
+    background-color: rgb(2, 2, 172);
 }
 
 #increment-btn:hover {
@@ -73,7 +74,7 @@ button {
 }
 
 #decrease-btn {
-    background-color: #8b0000;
+    background-color: #a50303;
 }
 
 #decrease-btn:hover {
@@ -83,7 +84,7 @@ button {
 
 #save-btn {
     margin-top: 20px;
-    background-color: darkgreen;
+    background-color: rgb(2, 138, 2);
 }
 
 #save-btn:hover { 
