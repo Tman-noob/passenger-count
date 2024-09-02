@@ -62,15 +62,25 @@ button {
 }
 
 #increment-btn {
-    background-color: #8b0000;
+    background-color: darkblue;
 }
 
 #increment-btn:hover {
+    background-color: rgb(2, 2, 80);
+    cursor: pointer;
+}
+
+#decrease-btn {
+    background-color: #8b0000;
+}
+
+#decrease-btn:hover {
     background-color: #530000;
     cursor: pointer;
 }
 
 #save-btn {
+    margin-top: 20px;
     background-color: darkgreen;
 }
 
